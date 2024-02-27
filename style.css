@@ -148,7 +148,7 @@ nav ul li a:hover::after {
     transition: background 0.5s ,transform 0.5s;
 }
 .services-list div p {
-    font-size : 14px
+    font-size : 14px;
 }
 .services-list div i {
     font-size: 50px;
@@ -241,6 +241,7 @@ nav ul li a:hover::after {
     padding: 14px 50px;
     text-decoration: none;
     color: #fff;
+    font-size:14px;
 }
 .btn:hover {
     background-color: #ff0044;

@@ -86,6 +86,7 @@ nav ul li a:hover::after {
 }
 .about-col-2 {
     flex-basis: 60%;
+    font-size: 16px;
 }
 .sub-title {
     font-size: 60px;
@@ -96,8 +97,8 @@ nav ul li a:hover::after {
     display: flex;
     margin: 20px 0 40px;
 }
-.tab-links {
-    margin-right: 50px;
+.about-col-2 .tab-links {
+    margin-right: 40px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -116,9 +117,10 @@ nav ul li a:hover::after {
 .tab-links.active-link::after {
     width: 100%;
 }
-.tab-contents ul li {
+.about-col-2 .tab-contents ul li {
     list-style-type: none;
     margin: 20px 0;
+    font-size: 14px;
 }
 .tab-contents ul li span {
     color: rgb(244, 244, 146);
@@ -143,10 +145,13 @@ nav ul li a:hover::after {
 .services-list div {
     background: #262626;
     padding: 40px;
-    font-size: 14px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s ,transform 0.5s;
+}
+.services-list div p {
+    font-size: 14px;
+
 }
 .services-list div i {
     font-size: 50px;
@@ -239,6 +244,7 @@ nav ul li a:hover::after {
     padding: 14px 50px;
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
 }
 .btn:hover {
     background-color: #ff0044;
@@ -344,6 +350,46 @@ form .btn2{
     height: 150px;
     border-radius: 5px;
 }
+/* ------------Projects------------------------- */
+
+.containers {
+    width: 400px;
+    height: 80vh;
+    margin: 80px auto;
+    border: 2px solid black;
+    position: relative;
+    background: url('images/1.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.containers .btn-left{
+    position: absolute;
+    top: 50%;
+}
+.containers .btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.containers a {
+    text-decoration: none;
+}
+.containers span {
+    background-color: rgb(0, 0, 0,0.6);
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.containers .btn {
+    border: none;
+}
+.containers .btn:hover{
+    background-color: transparent;
+}
+
+
 
 /* ---------------responsive mobile screen ---------------- */
 nav .fas {
